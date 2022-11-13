@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'" />
+        <!-- Custom Fetch class for including additional files (HTML, CSS, JS) -->
+        <script src="../../node_modules/fuse-fetch/FuseFetch.js"></script>
+        <fuse-fetch name="main" type="css"></fuse-fetch>
+        <!-- Tailwind Flowbite UI Kit -->
+        <script src="../../node_modules/flowbite/dist/flowbite.js"></script>
+        <title>@redvanjosh/electron-template</title>
+    </head>
+    <body class="dark bg-stone-700">
+        <fuse-fetch name="header" type="html"></fuse-fetch>
+        <fuse-fetch name="slider" type="html"></fuse-fetch>
+        <!--Includes the main renderer.js file connecting our bridge to the backend-->
+        <script src="../../renderer.js"></script>
+        <fuse-fetch name="footer" type="html"></fuse-fetch>
+    </body>
+</html>
