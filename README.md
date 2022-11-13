@@ -2,7 +2,7 @@
 
 ![webstorm64_7evZIUoyfS](https://user-images.githubusercontent.com/23381860/201500808-cbfd894d-9ee9-44c4-b4c0-991815466129.png)
 
-Electron template for those curious to play with electron but intimidated by setting up a project.
+A electron starter kit meant to be dead simple. Comes bundled out-of-the-box with Tailwind CSS and Prettier
 
 ## NPM Commands
 
