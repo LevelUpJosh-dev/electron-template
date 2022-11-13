@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Red Van Josh",
   "license": "MIT",
-  "description": "A template for creating Electron apps with extensive documentation and examples as well as native TailwindCSS support.",
+  "description": "A electron starter kit meant to be dead simple. Comes bundled out-of-the-box with Tailwind CSS and Prettier",
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
