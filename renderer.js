@@ -7,12 +7,6 @@
  */
 
 /**
- * @namespace window.Abdx
- * @property { function } OrgListRequest - Request the list of orgs from the main process
- * @property { function } OrgListResponse - Callback function for the OrgListResponse event
- */
-
-/**
  * Invoke api bridge methods to handle requests to and from the ipcMain process.
  */
 window.bridgeMethods.EventToMain();
